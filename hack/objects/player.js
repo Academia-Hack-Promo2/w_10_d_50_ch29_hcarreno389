@@ -12,14 +12,18 @@ var Player = (function () {
 		var att=this.typeAtack();
 		console.log('ataco '+this.name);	
 		console.log(att);
-		console.log(att.damage());
-		player.damage(att.damage());	
+		var ataque = att.damage(); 
+		console.log(ataque);
+		console.log(this.life);
+		player.damage(ataque);	
 	};
 
 	Player.prototype.damage = function (damage) {
 		console.log('se jodio '+this.name);
-		console.log('vida restante' + (this.life - damage));
-		this.life -= damage;
+		this.life = this.life - damage;
+		console.log('vida restante' + this.life);
+		
+		
 
 	};
 

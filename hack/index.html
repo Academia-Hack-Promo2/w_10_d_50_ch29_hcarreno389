@@ -11,10 +11,48 @@
 				<div class="col-md-4">
 					<div class="input-group input-group-lg">
 						<span class="input-group-addon" id="sizing-addon1">
-						<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
 						</span>
 						<input type="text" class="form-control" placeholder="Player1 name" id="player1Name">
 					</div>
+					
+
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+							Faction
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+							<li role="presentation" id="1"><a role="menuitem" tabindex="-1" >Ninja</a></li>
+							<li role="presentation" id="2"><a role="menuitem" tabindex="-1" >Rex</a></li>
+						</ul>
+					</div>
+
+
+
+				</div>
+				<div class="col-md-4">
+					<div class="input-group input-group-lg">
+						<span class="input-group-addon" id="sizing-addon1">
+							<span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+						</span>
+						<input type="text" class="form-control" placeholder="Player2 name" id="player2Name">
+					</div>
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+							Faction
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+							<li role="presentation" id="1"><a role="menuitem" tabindex="-1" >Ninja</a></li>
+							<li role="presentation" id="2"><a role="menuitem" tabindex="-1" >Rex</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<br></br>
 					<button type="button" class="btn btn-success" id="jugar">Jugar</button>
 				</div>
 			</div>
@@ -27,7 +65,9 @@
 		<script type="text/javascript" src="objects/faction.js"></script>
 		<script type="text/javascript" src="settings.js"></script>
 		<script type="text/javascript" src="game.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="ninjarex.css">
+
 	</body>
 	</html>
