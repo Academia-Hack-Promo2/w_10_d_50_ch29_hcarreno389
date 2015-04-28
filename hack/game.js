@@ -12,9 +12,9 @@
 	console.log(player1);
 	console.log(player2);
 
-	while (!player2.isDead() && !player1.isDead()) {				
-		player1.attack(player2);
-		player2.attack(player1);
-	};
+	// while (!player2.isDead() && !player1.isDead()) {				
+	// player1.attack(player2);
+	//  	player2.attack(player1);
+	//  };
 
 })();

@@ -10,6 +10,9 @@ var Faction = (function () {
 	Faction.prototype.addAttack = function (attack) {
 		this.attacks.push(attack);
 	};
+	Faction.prototype.attack = function(){
+		return this.attacks;
+	}
 
 	return Faction;
 

@@ -13,16 +13,16 @@ var settings = (function () {
 	ninja.addAttack(attack3);
 
 	var attack0 = new Attack('no attack', 0);
-	var attack4 = new Attack('bite', 500);
+	var attack4 = new Attack('bite', 900);
 	var attack5 = new Attack('step', 1000);
-	var attack6 = new Attack('tail whipe', 500);
+	
 
 	var dinosaur = new Faction('dinosaur');
 
 	dinosaur.addAttack(attack0);
 	dinosaur.addAttack(attack4);
 	dinosaur.addAttack(attack5);
-	dinosaur.addAttack(attack6);
+	
 
 	return {
 		factions: [ninja, dinosaur]
