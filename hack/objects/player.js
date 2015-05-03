@@ -21,7 +21,7 @@ var Player = (function () {
 	Player.prototype.damage = function (damage) {
 		console.log('se jodio '+this.name);
 		this.life = this.life - damage;
-		console.log('vida restante' + this.life);
+		console.log('vida restante ' + this.life);
 		
 		
 
