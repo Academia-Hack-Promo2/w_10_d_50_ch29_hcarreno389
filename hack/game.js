@@ -11,9 +11,21 @@
 	var valor2;
 	$('select#faction1').on('change',function(){
 		valor = $(this).val();
+		if (valor==0) {
+			document.getElementById("img_pj1").src="imgs/pjs/ninja1_burned.png"
+		};
+		if (valor==1) {
+			document.getElementById('img_pj1').src="imgs/pjs/rex_burned.png"
+		};
 	});
 	$('select#faction2').on('change',function(){
 		valor2 = $(this).val();
+		if (valor2==0) {
+			document.getElementById("img_pj2").src="imgs/pjs/ninja1_burned.png"
+		};
+		if (valor2==1) {
+			document.getElementById('img_pj2').src="imgs/pjs/rex_burned.png"
+		};
 	}); 
 	pj1.click(function(){
 		var nompl1 = $('#player1Name').val();

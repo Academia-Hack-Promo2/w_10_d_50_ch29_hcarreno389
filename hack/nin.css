@@ -1,0 +1,42 @@
+body{
+	background-image: url('imgs/fondos/bosque_noche_forest_night.jpg');
+}
+h1{
+	text-align: center;
+	color: #fff;
+}
+#center{
+	
+	right: 330px;
+	height: 400px;
+	width: 400px;
+	background-color: #59D2E3;
+	margin: 0 auto;
+	border-radius: 300px;
+}
+#ninja{
+	position: absolute;
+	left: 700px;
+	bottom: 150px;
+}
+#rex{
+	position: absolute;
+	right: 650px;
+	bottom:40px;
+}
+#vs{
+	position: absolute;
+	right: 450px;
+	bottom: 40px;
+}
+#play{
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	right: 550px;
+	
+}
+#play:hover{
+	background-color: #05283C;
+	color: #fff;
+}
