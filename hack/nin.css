@@ -4,6 +4,10 @@ body{
 h1{
 	text-align: center;
 	color: #fff;
+
+}
+h1:hover{
+	transform: scale(1.2);
 }
 #center{
 	
@@ -13,6 +17,13 @@ h1{
 	background-color: #59D2E3;
 	margin: 0 auto;
 	border-radius: 300px;
+}
+#center:hover{
+	background-color: #003A2B;
+}
+#center img:hover {
+transform: scale(1.2);
+
 }
 #ninja{
 	position: absolute;
